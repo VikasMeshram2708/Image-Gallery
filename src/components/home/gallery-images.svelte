@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { sampleImages } from '$lib/data';
+	let { sampleImages } = $props();
 	let isLoading = $state(true);
 	let selectedImage = $state<string | null>(null);
 	let isModalOpen = $state(false);

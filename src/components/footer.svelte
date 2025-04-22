@@ -9,7 +9,7 @@
 					<h2 class="text-surface-900 text-2xl font-bold dark:text-white">Image Gallery</h2>
 				</a>
 				<p class="text-surface-600 dark:text-surface-400 text-sm">
-					Curating beautiful photography since 2020.
+					Curating beautiful photography.
 				</p>
 				<div class="pt-4">
 					<p class="text-surface-500 dark:text-surface-500 text-xs">
