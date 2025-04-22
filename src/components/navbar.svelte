@@ -8,10 +8,19 @@
 	function handleSidebarClose() {
 		toggleSidebar = false;
 	}
+
+	let query = $state<string>('');
+	function handleSearch() {
+		console.log('query', query);
+	}
+
+	$effect(() => {
+		handleSearch();
+	});
 </script>
 
 <nav class="w-full">
-	<div class="mx-auto flex max-w-7xl items-center justify-between p-4">
+	<div class="mx-auto flex max-w-7xl items-center justify-between gap-4 p-4">
 		<a href="/">
 			<h2 class="text-xl font-bold sm:text-2xl md:text-3xl lg:text-4xl">Image Gallery</h2>
 		</a>
@@ -20,6 +29,7 @@
 		>
 			<Search />
 			<input
+				bind:value={query}
 				type="text"
 				name="search_bar"
 				id="search_bar"

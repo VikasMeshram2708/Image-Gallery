@@ -1,5 +1,7 @@
 <script lang="ts">
-	let { sampleImages } = $props();
+	let { samples: sampleImages } = $props();
+	// import { afterNavigate, beforeNavigate } from '$app/navigation';
+
 	let isLoading = $state(true);
 	let selectedImage = $state<string | null>(null);
 	let isModalOpen = $state(false);
@@ -40,13 +42,19 @@
 		window.addEventListener('keydown', handleKeyDown);
 		return () => window.removeEventListener('keydown', handleKeyDown);
 	});
+
+	// let isMounting = $state(true);
+	// beforeNavigate(() => {
+	// 	isMounting = true;
+	// });
+
+	// afterNavigate(() => {
+	// 	isMounting = false;
+	// });
 </script>
 
 <!-- Gallery -->
 <div class="space-y-6">
-	<h2 id="gallery-heading" class="font-serif text-xl font-bold italic sm:text-2xl md:text-3xl">
-		Latest Drops Gallery
-	</h2>
 	<ul aria-labelledby="gallery-heading" class="columns-2 gap-4 space-y-4 md:columns-3 lg:columns-4">
 		{#each sampleImages as item (item.id)}
 			<li class="break-inside-avoid">
