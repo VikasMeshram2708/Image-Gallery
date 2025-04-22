@@ -16,7 +16,7 @@
 			<h2 class="text-xl font-bold sm:text-2xl md:text-3xl lg:text-4xl">Image Gallery</h2>
 		</a>
 		<div
-			class="mx-auto hidden max-w-xl flex-1 items-center overflow-hidden rounded-lg px-3 py-2 outline lg:flex"
+			class="mx-auto hidden max-w-3xl flex-1 items-center overflow-hidden rounded-lg px-3 py-2 outline lg:flex"
 		>
 			<Search />
 			<input

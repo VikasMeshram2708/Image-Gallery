@@ -1,0 +1,75 @@
+// categories list
+export const sampleCategories = [
+	'Nature',
+	'Architecture',
+	'Technology',
+	'Animals',
+	'Fashion',
+	'Food & Drink',
+	'Travel',
+	'People',
+	'Sports',
+	'Abstract',
+	'Business',
+	'Music',
+	'Health & Wellness',
+	'Education',
+	'Art',
+	'History',
+	'Space',
+	'Cars',
+	'Interior Design',
+	'Photography',
+	'Landscapes',
+	'Cityscapes',
+	'Beaches',
+	'Mountains',
+	'Forests',
+	'Minimalism',
+	'Textures & Patterns',
+	'Nightlife',
+	'Street Photography',
+	'Macro',
+	'Underwater',
+	'Aerial',
+	'Vintage',
+	'Fantasy',
+	'Wildlife',
+	'Events',
+	'Holidays',
+	'DIY & Crafts',
+	'Love & Relationships',
+	'Workplace',
+	'Gardening',
+	'Religion',
+	'Signs & Symbols'
+];
+
+// Gallery images
+// interface iImage {
+interface iImage {
+	id: string;
+	url: string;
+}
+export const sampleImages = [
+	{ id: '1', url: 'https://picsum.photos/400/650?random=1' },
+	{ id: '2', url: 'https://picsum.photos/600/400?random=2' },
+	{ id: '3', url: 'https://picsum.photos/400/720?random=3' },
+	{ id: '4', url: 'https://picsum.photos/640/400?random=4' },
+	{ id: '5', url: 'https://picsum.photos/400/700?random=5' },
+	{ id: '6', url: 'https://picsum.photos/580/400?random=6' },
+	{ id: '7', url: 'https://picsum.photos/400/600?random=7' },
+	{ id: '8', url: 'https://picsum.photos/700/420?random=8' },
+	{ id: '9', url: 'https://picsum.photos/400/750?random=9' },
+	{ id: '10', url: 'https://picsum.photos/620/400?random=10' },
+	{ id: '11', url: 'https://picsum.photos/400/670?random=11' },
+	{ id: '12', url: 'https://picsum.photos/680/400?random=12' },
+	{ id: '13', url: 'https://picsum.photos/400/620?random=13' },
+	{ id: '14', url: 'https://picsum.photos/550/400?random=14' },
+	{ id: '15', url: 'https://picsum.photos/400/710?random=15' },
+	{ id: '16', url: 'https://picsum.photos/600/400?random=16' },
+	{ id: '17', url: 'https://picsum.photos/400/680?random=17' },
+	{ id: '18', url: 'https://picsum.photos/660/400?random=18' },
+	{ id: '19', url: 'https://picsum.photos/400/730?random=19' },
+	{ id: '20', url: 'https://picsum.photos/700/400?random=20' }
+];
