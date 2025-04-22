@@ -1,5 +1,6 @@
 <script lang="ts">
 	import '../app.css';
+	import Footer from '../components/footer.svelte';
 	import Navbar from '../components/navbar.svelte';
 
 	let { children } = $props();
@@ -9,5 +10,6 @@
 	<div class="flex-1">
 		<Navbar />
 		{@render children()}
+		<Footer />
 	</div>
 </main>

@@ -47,10 +47,7 @@ export const sampleCategories = [
 
 // Gallery images
 // interface iImage {
-interface iImage {
-	id: string;
-	url: string;
-}
+
 export const sampleImages = [
 	{ id: '1', url: 'https://picsum.photos/400/650?random=1' },
 	{ id: '2', url: 'https://picsum.photos/600/400?random=2' },
@@ -71,5 +68,6 @@ export const sampleImages = [
 	{ id: '17', url: 'https://picsum.photos/400/680?random=17' },
 	{ id: '18', url: 'https://picsum.photos/660/400?random=18' },
 	{ id: '19', url: 'https://picsum.photos/400/730?random=19' },
-	{ id: '20', url: 'https://picsum.photos/700/400?random=20' }
+	{ id: '20', url: 'https://picsum.photos/700/400?random=20' },
+	{ id: '21', url: 'https://picsum.photos/400/400?random=21' }
 ];

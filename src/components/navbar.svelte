@@ -12,7 +12,7 @@
 
 <nav class="w-full">
 	<div class="mx-auto flex max-w-7xl items-center justify-between p-4">
-		<a href="/" class="">
+		<a href="/">
 			<h2 class="text-xl font-bold sm:text-2xl md:text-3xl lg:text-4xl">Image Gallery</h2>
 		</a>
 		<div
@@ -29,14 +29,14 @@
 		</div>
 
 		<div>
-			<Menu onclick={() => (toggleSidebar = !toggleSidebar)} class="cursor-pointer" />
+			<Menu onclick={() => (toggleSidebar = !toggleSidebar)} class="cursor-pointer lg:hidden" />
 
 			<div>
 				{#if toggleSidebar}
 					<NavSidebar {handleSidebarClose} />
 				{/if}
 
-				<div class="lg: hidden">
+				<div class="hidden lg:block">
 					<Avatar src="https://i.pravatar.cc/150?img=48" name="skeleton" />
 				</div>
 			</div>
